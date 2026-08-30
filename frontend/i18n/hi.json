@@ -1,0 +1,22 @@
+{
+  "app_title": "भूस्खलन पूर्व चेतावनी प्रणाली - NER",
+  "subtitle": "AI + लाइव मौसम — एक क्लिक में अपना जोखिम देखें",
+  "risk_levels": {"LOW": "कम", "MODERATE": "मध्यम", "HIGH": "उच्च", "CRITICAL": "गंभीर"},
+  "report_types": {"CRACK": "भूमि दरार", "LANDSLIDE": "भूस्खलन", "ROCKFALL": "चट्टान गिरना", "ROAD_BLOCKAGE": "सड़क अवरोध", "SLOPE_MOVEMENT": "ढलान गति", "OTHER": "अन्य"},
+  "alert_created": "अलर्ट बना",
+  "demo_banner": "डेमो / सिंथेटिक डेटा - वास्तविक पूर्वानुमान नहीं।",
+  "submit_report": "रिपोर्ट जमा करें",
+  "use_my_location": "मेरा वर्तमान स्थान उपयोग करें",
+  "live_source": "लाइव - वास्तविक API",
+  "synthetic_source": "डेमो - सिंथेटिक",
+  "confidence": "विश्वास",
+  "risk_score": "जोखिम स्कोर",
+  "get_risk": "जोखिम देखें",
+  "for_farmers": "किसान",
+  "for_travelers": "यात्री",
+  "for_families": "परिवार",
+  "safe": "सुरक्षित",
+  "caution": "सावधान",
+  "avoid_slopes": "ढलानों से बचें",
+  "evacuate": "सलाह पर खाली करें"
+}

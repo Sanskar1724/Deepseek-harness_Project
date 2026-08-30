@@ -1,0 +1,44 @@
+{
+  "algorithm": "xgboost",
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "elevation_m",
+    "slope_deg",
+    "aspect_deg",
+    "ndvi",
+    "soil_moisture_pct",
+    "rainfall_1h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "rainfall_72h_mm",
+    "forecast_24h_mm",
+    "forecast_72h_mm",
+    "temperature_c",
+    "humidity_pct",
+    "historical_landslide_count",
+    "land_cover_bare_soil",
+    "land_cover_cropland",
+    "land_cover_forest",
+    "land_cover_grassland",
+    "land_cover_shrubland"
+  ],
+  "metrics": {
+    "confusion_matrix": {
+      "fn": 33,
+      "fp": 0,
+      "tn": 67,
+      "tp": 0
+    },
+    "f1": 0.0,
+    "pr_auc": 0.45002824912434225,
+    "precision": 0.0,
+    "recall": 0.0,
+    "roc_auc": 0.5540479421076436
+  },
+  "model_version": "xgboost-calibrated-20260828064359",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "trained_at": "2026-08-28T06:43:59.560626+00:00",
+  "training_dataset": "csv:data\\processed\\real_training_dataset.csv"
+}

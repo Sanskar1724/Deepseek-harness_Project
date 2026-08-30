@@ -1,0 +1,22 @@
+{
+  "app_title": "ভূস্খলন পূৰ্ব সতৰ্কতা প্ৰণালী - NER",
+  "subtitle": "AI + লাইভ বতৰ — এটা ক্লিকত আপোনাৰ বিপদ চাওক",
+  "risk_levels": {"LOW": "নিম্ন", "MODERATE": "মধ্যম", "HIGH": "উচ্চ", "CRITICAL": "গুৰুতৰ"},
+  "report_types": {"CRACK": "মাটিৰ ফাট", "LANDSLIDE": "ভূস্খলন", "ROCKFALL": "শিল পতন", "ROAD_BLOCKAGE": "পথ অৱৰোধ", "SLOPE_MOVEMENT": "ঢালৰ গতি", "OTHER": "অন্য"},
+  "alert_created": "সতৰ্কতা সৃষ্টি হৈছে",
+  "demo_banner": "ডেমো / কৃত্ৰিম তথ্য — প্ৰকৃত পূৰ্বাভাস নহয়।",
+  "submit_report": "প্ৰতিবেদন জমা কৰক",
+  "use_my_location": "মোৰ বৰ্তমান অৱস্থান ব্যৱহাৰ কৰক",
+  "live_source": "লাইভ - প্ৰকৃত API",
+  "synthetic_source": "ডেমো - কৃত্ৰিম",
+  "confidence": "আস্থা",
+  "risk_score": "বিপদৰ স্ক'ৰ",
+  "get_risk": "বিপদ চাওক",
+  "for_farmers": "কৃষক",
+  "for_travelers": "যাত্ৰী",
+  "for_families": "পৰিয়াল",
+  "safe": "নিৰাপদ",
+  "caution": "সাৱধান",
+  "avoid_slopes": "ঢালৰ পৰা আঁতৰি থাকক",
+  "evacuate": "পৰামৰ্শত স্থান এৰক"
+}

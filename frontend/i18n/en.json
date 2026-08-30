@@ -1,0 +1,22 @@
+{
+  "app_title": "Landslide Early Warning System - NER",
+  "subtitle": "AI + Live Weather for NER — Check your location in one click",
+  "risk_levels": {"LOW": "Low", "MODERATE": "Moderate", "HIGH": "High", "CRITICAL": "Critical"},
+  "report_types": {"CRACK": "Ground Crack", "LANDSLIDE": "Landslide", "ROCKFALL": "Rockfall", "ROAD_BLOCKAGE": "Road Blockage", "SLOPE_MOVEMENT": "Slope Movement", "OTHER": "Other"},
+  "alert_created": "Alert created",
+  "demo_banner": "DEMO / SYNTHETIC DATA - not a real operational forecast.",
+  "submit_report": "Submit Report",
+  "use_my_location": "Use My Current Location",
+  "live_source": "LIVE - Real APIs",
+  "synthetic_source": "Demo - Synthetic",
+  "confidence": "Confidence",
+  "risk_score": "Risk Score",
+  "get_risk": "Get Risk Score",
+  "for_farmers": "Farmers",
+  "for_travelers": "Travelers",
+  "for_families": "Families",
+  "safe": "Safe",
+  "caution": "Caution",
+  "avoid_slopes": "Avoid slopes",
+  "evacuate": "Evacuate if advised"
+}

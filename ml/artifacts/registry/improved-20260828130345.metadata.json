@@ -1,0 +1,160 @@
+{
+  "all_results": {
+    "ensemble": {
+      "cv": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      },
+      "optimal_metrics": {
+        "f1": 0.9999999995,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "optimal_threshold": 0.992491937078535,
+      "test": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      }
+    },
+    "gradient_boosting": {
+      "cv": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      },
+      "optimal_metrics": {
+        "f1": 0.9999999995,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "optimal_threshold": 0.995530565105668,
+      "test": {
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 177,
+          "tp": 89
+        },
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      }
+    },
+    "logistic_regression": {
+      "cv": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      },
+      "optimal_metrics": {
+        "f1": 0.9999999995,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "optimal_threshold": 0.9714138133749765,
+      "test": {
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 177,
+          "tp": 89
+        },
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      }
+    },
+    "random_forest": {
+      "cv": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      },
+      "optimal_metrics": {
+        "f1": 0.9999999995,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "optimal_threshold": 0.975,
+      "test": {
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 177,
+          "tp": 89
+        },
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      }
+    },
+    "xgboost": {
+      "cv": {
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      },
+      "optimal_metrics": {
+        "f1": 0.9999999995,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "optimal_threshold": 0.996698260307312,
+      "test": {
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 177,
+          "tp": 89
+        },
+        "f1": 1.0,
+        "pr_auc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "elevation_m",
+    "slope_deg",
+    "aspect_deg",
+    "ndvi",
+    "soil_moisture_pct",
+    "rainfall_1h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "rainfall_72h_mm",
+    "forecast_24h_mm",
+    "forecast_72h_mm",
+    "temperature_c",
+    "humidity_pct",
+    "historical_landslide_count",
+    "land_cover_forest"
+  ],
+  "model_version": "improved-20260828130345",
+  "trained_at": "2026-08-28T13:03:46.989840+00:00",
+  "training_dataset": "data\\processed\\real_training_dataset_v3.csv"
+}

@@ -1,0 +1,24 @@
+{
+  "categorical": [
+    "land_cover"
+  ],
+  "numeric": [
+    "latitude",
+    "longitude",
+    "elevation_m",
+    "slope_deg",
+    "aspect_deg",
+    "ndvi",
+    "soil_moisture_pct",
+    "rainfall_1h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "rainfall_72h_mm",
+    "forecast_24h_mm",
+    "forecast_72h_mm",
+    "temperature_c",
+    "humidity_pct",
+    "historical_landslide_count"
+  ],
+  "target": "landslide_occurred"
+}

@@ -1,0 +1,48 @@
+{
+  "algorithm": "random_forest",
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "elevation_m",
+    "slope_deg",
+    "aspect_deg",
+    "ndvi",
+    "soil_moisture_pct",
+    "rainfall_1h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "rainfall_72h_mm",
+    "forecast_24h_mm",
+    "forecast_72h_mm",
+    "temperature_c",
+    "humidity_pct",
+    "historical_landslide_count",
+    "land_cover_bare_soil",
+    "land_cover_built_up",
+    "land_cover_cropland",
+    "land_cover_deciduous_forest",
+    "land_cover_evergreen_forest",
+    "land_cover_forest",
+    "land_cover_grassland",
+    "land_cover_shrubland",
+    "land_cover_water"
+  ],
+  "metrics": {
+    "confusion_matrix": {
+      "fn": 24,
+      "fp": 11,
+      "tn": 82,
+      "tp": 33
+    },
+    "f1": 0.6534653465346535,
+    "pr_auc": 0.7999166831620106,
+    "precision": 0.75,
+    "recall": 0.5789473684210527,
+    "roc_auc": 0.8439916996793058
+  },
+  "model_version": "random_forest-calibrated-20260828105323",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "trained_at": "2026-08-28T10:53:23.330451+00:00",
+  "training_dataset": "synthetic:n=600"
+}
